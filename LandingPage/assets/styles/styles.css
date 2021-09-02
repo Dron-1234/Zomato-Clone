@@ -10,3 +10,22 @@
 a{
     color: unset;
 }
+
+header{
+    background-image:url('../images/hero.png') ;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+}
+
+.nav-item{
+    color: white;
+}
