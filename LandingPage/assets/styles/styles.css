@@ -170,3 +170,39 @@ section.nearby div.box:hover {
     box-shadow: rgba(80, 55, 55, 0.24) 0px 3px 8px;
     cursor: pointer;
 }
+
+/* Apps section */
+
+section.app {
+    min-height: 300px;
+    background-color: #FEFBF6;
+}
+
+section.app div.container {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.app div.container img {
+    max-width: 300px;
+    display: block;
+}
+
+section.app div.container div.form {
+    max-width: 485px;
+}
+
+section.app div.container div.form h1 {
+    font-size: 3rem;
+}
+
+section.app div.container div.form small {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #393737;
+    margin: 20px 0px;
+}
